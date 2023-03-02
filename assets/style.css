@@ -55,4 +55,5 @@ img {
     background-color: black;
     margin: 1em;
     float: left;
+    box-shadow: 5px 8px rgba(0, 0, 0, 0.1);
 }

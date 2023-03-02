@@ -44,16 +44,23 @@ a {
 
 /* Card */
 img {
-    height: 5rem;
+    height: 6rem;
     float: left;
     margin-right: 1em;
 }
 
 .card {
-    height: 5rem;
-    width: calc(100%/3 - 2em);
+    height: 6rem;
+    width: calc(100%/3 - 1em);
     background-color: black;
-    margin: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
     float: left;
     box-shadow: 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:nth-of-type(2),
+.card:nth-of-type(5) {
+    margin-left: 1.5em;
+    margin-right:1.5em;
 }

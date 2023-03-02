@@ -12,26 +12,43 @@ body {
 h1, p {
     text-align: center;
     font-weight: 800;
+    margin-bottom: 1em; 
 }
 
 h1 {
     color: #e5306f;
     margin-top: 1em;
-    margin-bottom: 1em;
 }
 
 h2, h3 {
     color: white;
+    margin: 0.4em;
+}
+
+h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 0.8em;
+}
+
+a {
+    color: hsl(202, 87%, 42%);
+    text-decoration: none;
 }
 
 img {
     height: 5rem;
     float: left;
+    margin-right: 1em;
 }
 
 .card {
     height: 5rem;
-    width: calc(100%/3);
+    width: calc(100%/3 - 2em);
     background-color: black;
+    margin: 1em;
     float: left;
 }

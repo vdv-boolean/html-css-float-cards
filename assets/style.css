@@ -1,3 +1,4 @@
+/* Reset */
 *, *::after, *::before {
     margin: 0;
     padding: 0;
@@ -9,6 +10,8 @@ body {
     margin: auto;
 }
 
+
+/* Font */
 h1, p {
     text-align: center;
     font-weight: 800;
@@ -39,6 +42,7 @@ a {
     text-decoration: none;
 }
 
+/* Card */
 img {
     height: 5rem;
     float: left;
